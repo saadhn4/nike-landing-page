@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Inter, Arial;
+  list-style: none;
+  text-decoration: none;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #c6cdcd;
+}
+
+.nav {
+  padding: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nike-logo {
+  height: 50px;
+}
+
+.links {
+  flex: 1;
+  margin-left: 200px;
+}
+
+.links ul {
+  display: flex;
+  gap: 40px;
+}
+
+.links ul li a {
+  color: #111;
+  font-weight: 700;
+}
+
+.icons {
+  display: flex;
+  gap: 40px;
+  cursor: pointer;
+}
+
+.icon {
+  height: 20px;
+}
+
+.hero-section {
+  display: flex;
+  width: 100%;
+  padding: 0 80px;
+}
+
+.left-column {
+  flex: 2;
+}
+
+.heading {
+  font-size: 25px;
+  color: rgb(100, 100, 100);
+  margin-bottom: 10px;
+}
+
+.subheading {
+  font-size: 50px;
+  margin-bottom: 90px;
+  position: relative;
+}
+
+.subheading span {
+  margin-top: 10px;
+  position: absolute;
+  top: 50px;
+  left: 0px;
+}
+
+.desc {
+  width: 30%;
+  color: rgb(100, 100, 100);
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+button {
+  border: none;
+  color: white;
+  background-color: #111;
+  padding: 15px 30px;
+  border-radius: 15px;
+  transition: color,background-color 0.2s;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: white;
+  color: #111;
+}
+
+.right-column {
+  display: flex;
+  gap: 20px;
+  flex: 1;
+}
+
+.card {
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Softer and more natural shadow */
+  background-color: #b4b6b8; /* Ensure the background color complements the shadow */
+  border-radius: 5px; /* Optional: Rounded corners for a smoother look */
+  height: 200px;
+}
+
+.shoe-pic {
+  width: 200px;
+  height: 200px;
+}
+
+.second-row {
+  margin-top: -3px;
+  width: 200px;
+  background-color: #b4b6b8;
+  padding-bottom: 20px;
+}
+
+.title {
+  padding-top: 5px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.color {
+  margin-bottom: 20px;
+}
