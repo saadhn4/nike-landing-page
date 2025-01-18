@@ -111,9 +111,9 @@ button:hover{
 }
 
 .card {
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Softer and more natural shadow */
-  background-color: #b4b6b8; /* Ensure the background color complements the shadow */
-  border-radius: 5px; /* Optional: Rounded corners for a smoother look */
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  background-color: #b4b6b8; 
+  border-radius: 5px; 
   height: 200px;
 }
 
