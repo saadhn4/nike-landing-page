@@ -60,7 +60,7 @@ body {
 }
 
 .left-column {
-  flex: 2;
+  flex: 1;
 }
 
 .heading {
@@ -95,11 +95,11 @@ button {
   background-color: #111;
   padding: 15px 30px;
   border-radius: 15px;
-  transition: color,background-color 0.2s;
+  transition: color, background-color 0.2s;
   cursor: pointer;
 }
 
-button:hover{
+button:hover {
   background-color: white;
   color: #111;
 }
@@ -112,8 +112,8 @@ button:hover{
 
 .card {
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
-  background-color: #b4b6b8; 
-  border-radius: 5px; 
+  background-color: #b4b6b8;
+  border-radius: 5px;
   height: 200px;
 }
 
