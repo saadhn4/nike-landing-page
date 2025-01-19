@@ -41,6 +41,11 @@ body {
 .links ul li a {
   color: #111;
   font-weight: 700;
+  transition: color 0.15s;
+}
+
+.links ul li a:hover {
+  color: white;
 }
 
 .icons {
